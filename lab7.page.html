@@ -1,0 +1,61 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>LAB TASK 7</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <p class="ion-text-center">
+    <img src="assets/mala.png" width="30%">
+  </p>
+<ion-grid fixed>
+  <ion-row>
+    <ion-col size="6">
+      <ion-button expand="block" fill="outline" [routerLink]="['/register']">
+        <ion-icon slot="end" name="school-outline"></ion-icon>
+      Prog
+      </ion-button>
+    </ion-col>
+
+    <ion-col size="6">
+      <ion-button expand="block" fill="outline" [routerLink]="['/contact']">
+        <ion-icon slot="end" name="call-outline"></ion-icon>
+      contact
+      </ion-button>
+    </ion-col>
+  </ion-row>
+
+  <ion-row>
+    <ion-col size="6">
+      <ion-button expand="block" fill="outline">
+        <ion-icon slot="end" name="bag-outline"></ion-icon>
+      cart
+      </ion-button>
+    </ion-col>
+    
+    <ion-col size="6">
+      <ion-button expand="block" fill="outline">
+        <ion-icon slot="end" name="bed-outline"></ion-icon>
+      sleep
+      </ion-button>
+    </ion-col>
+</ion-row>
+
+<ion-row>
+  <ion-col size="12">
+    <ion-button expand="block" fill="solid" [routerLink]="['/form']">
+      <ion-icon slot="end" name="body-outline"></ion-icon>
+    e
+    </ion-button>
+  </ion-col>
+  
+</ion-row>
+</ion-grid>
+
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar color="dark" class="ion-text-center">
+    <ion-title>CopyRight</ion-title>
+  </ion-toolbar>
+</ion-footer>
